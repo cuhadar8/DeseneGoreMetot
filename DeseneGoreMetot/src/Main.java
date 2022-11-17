@@ -14,7 +14,10 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		createDesign(16);
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("N sayısı: ");
+		int n = scanner.nextInt();
+		createDesign(n);
 	}
 
 }
